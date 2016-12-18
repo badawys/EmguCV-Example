@@ -72,9 +72,6 @@ namespace Image
                 {
                     Val_LBL.Text = "Value: " + My_Image[e.Y, e.X].ToString();
                 }
-                //It is much more stable with large images to access the image.Data propert directley than use code like bellow
-                //Bitmap tmp_img = new Bitmap(image_PCBX.Image);
-                //Val_LBL.Text = "Value: " + tmp_img.GetPixel(e.X, e.Y).ToString();
             }
         }
 
@@ -278,7 +275,7 @@ namespace Image
                 {
                     int maxheight = 0, minheight = 0, maxwidth = 0, minwidth = 0;
 
-                    if (image_2.Width > image_3.Width)
+                    if (image_2.Width > My_Image.Width)
                     {
                         maxwidth = image_2.Width;
                         minwidth = My_Image.Width;

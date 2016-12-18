@@ -101,7 +101,7 @@
             this.Convert_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.Convert_btn.Location = new System.Drawing.Point(418, 343);
             this.Convert_btn.Name = "Convert_btn";
-            this.Convert_btn.Size = new System.Drawing.Size(100, 23);
+            this.Convert_btn.Size = new System.Drawing.Size(131, 23);
             this.Convert_btn.TabIndex = 5;
             this.Convert_btn.Text = "Convert to Gray";
             this.Convert_btn.UseVisualStyleBackColor = true;
